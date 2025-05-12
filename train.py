@@ -3,19 +3,16 @@ import random
 import monai
 from os import listdir, makedirs
 from os.path import join, exists, isfile, isdir, basename
-from glob import glob
-from tqdm import tqdm, trange
-from copy import deepcopy
+from tqdm import tqdm
 from time import time
 import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import DataLoader
 from datetime import datetime
 from shutil import copyfile
 from models import PromptEncoder, TwoWayTransformer, TinyViT, MaskDecoder_F4
-import cv2
 import torch.nn.functional as F
 import gc
 from matplotlib import pyplot as plt
@@ -167,7 +164,6 @@ def sanity_check_dataset(args):
 
         image = batch["image"]
         gt = batch["gt2D"]
-        # coords = batch["coords"]
         bboxes = batch["bboxes"]
         names_temp = batch["image_name"]
 
