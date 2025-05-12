@@ -33,7 +33,7 @@ The training code has been released and you can train your . -->
 
 ## Training and Inference
 
-Training and inference can be done by running train.py and infer.py. Additionally, We are currently releasing the model weight for inference. You can download from [here](https://drive.google.com/drive/folders/1NW4aSNhk-dtiK-dicTAUp0g0eR2fryNi?usp=sharing).
+Training and inference can be done by running train.py and infer.py. Additionally, we also release the model weight for inference, which can be downloaded from [here](https://drive.google.com/drive/folders/1NW4aSNhk-dtiK-dicTAUp0g0eR2fryNi?usp=sharing).
 
 ## Citation
 
