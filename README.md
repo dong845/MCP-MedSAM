@@ -33,7 +33,7 @@ The training code has been released and you can train your . -->
 
 ## Training and Inference
 
-Training and inference can be done by running train.py and infer.py. Additionally, we also release the model weight for inference, which can be downloaded from [here](https://drive.google.com/drive/folders/1NW4aSNhk-dtiK-dicTAUp0g0eR2fryNi?usp=sharing). Furthermore, MCP-MedSAM has also been uploaded to the hugging face (https://huggingface.co/Leo-Lyu/MCP-MedSAM ), including pre-trained weights as well.
+Training and inference can be done by running train.py and infer.py. Additionally, we also release the model weight for inference, which can be downloaded from [here](https://drive.google.com/drive/folders/1NW4aSNhk-dtiK-dicTAUp0g0eR2fryNi?usp=sharing). Furthermore, MCP-MedSAM has also been uploaded to the [huggingface] (https://huggingface.co/Leo-Lyu/MCP-MedSAM), including pre-trained weights as well.
 
 ## Citation
 
